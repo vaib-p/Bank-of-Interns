@@ -1,12 +1,16 @@
 import React from 'react'
 import Navbar from './Navbar';
+import Main from './Login';
+import DepositPage from './DepositPage';
+import Login from './Login';
+
 
 
 
 
 export default function bank(props) {
     const backStyle={
-        backgroundImage: `url(${process.env.PUBLIC_URL}/back.jpg)`,
+        backgroundImage: `url(${process.env.PUBLIC_URL}/back1.jpg)`,
         height:'120vh',
         marginTop:'-70px',
         fontSize:'50px',
@@ -15,12 +19,12 @@ export default function bank(props) {
     };
   return (
     <>
-    <div>
-        <Navbar/>
-   </div>
-   <div style={backStyle}>
-
-   </div>
-   </>
+    
+   
+   <div>
+     <Login/>
+     
+  </div>
+</>
   );
 }
