@@ -2,14 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Home(props) {
-  const myStyle = {
-    backgroundImage: `url(${process.env.PUBLIC_URL}/back4.jpg)`,
-    height: '120vh',
-    marginTop: '-70px',
-    fontSize: '50px',
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
-  };
+  
 
   const divstyle = {
     paddingTop: '10%',
