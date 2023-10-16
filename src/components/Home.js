@@ -21,13 +21,12 @@ export default function Home(props) {
   };
   const bankimgStyle = {
 
-    width: '200px',
-    height: '200px',
-    display: 'block',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-    paddingTop:'100px',
-    margin:'100px',
+    display: 'block',        // Ensures the image behaves as a block element
+  margin: '0 auto',        // Center the image horizontally
+  maxWidth: '200px',        // Ensure the image doesn't exceed its container's width
+  maxHeight: '200px', 
+  paddingBottom: '50px',
+    
     
     
   };
